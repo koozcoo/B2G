@@ -34,8 +34,6 @@ You can read more about it on the following page :
 
 # Building and running the android-10 emulator x86_64
 
-_Warning: as of today, Mac OS X is not supported_
-
 1. Fetch the code: `REPO_INIT_FLAGS="--depth=1" ./config.sh emulator-10-x86_64`
 2. Setup your environment to fetch the custom NDK: `export LOCAL_NDK_BASE_URL='ftp://ftp.kaiostech.com/ndk/android-ndk'`
 3. Install Gecko dependencies: `cd gecko && ./mach bootstrap`, choose option 1 (Boot2Gecko).
